@@ -1,0 +1,207 @@
+ *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+ }
+ body{
+    background-color: #fff;
+ }
+ .sidebar_container{
+    display: flex;
+    position: relative;
+
+ }
+ .sidebar_container .sidebar{
+    background-color: #ccc;
+    position: fixed;
+    right: 20px;
+    width: 276px;
+    height: 95%;
+
+ }
+ .sidebar_container .sidebar h1{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+ }
+ .sidebar_container .sidebar ul li{
+    font-size: 28px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    float: right;
+
+ }
+ .sidebar_container .sidebar ul li i{
+    margin-left: 30px;
+    color: black;
+
+ }
+ .sidebar_container .sidebar ul li a{
+    display: block;
+    color: black;
+    padding: 10px;
+     
+ }
+ .sidebar_container .sidebar ul li a:hover{
+    background-color: rgb(161,159,163);
+    color: blue;
+     
+ }
+ .sidebar_container .content_sec{
+    width: 70%;
+    margin-left: 40px;
+    padding: 20px;
+ }
+ .sidebar_container .content_sec label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px;
+    margin-right: 40px;
+    text-align: right;
+    
+ }
+ .sidebar_container .content_sec input{
+   width: 100%;
+   padding: 15px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+    
+ }
+ .sidebar_container .content_sec .add{
+   background-color: #007bff;
+   border: none;
+   color: white;
+   padding: 15px 30px;
+   text-align: center;
+   font-size: 20px;
+   cursor: pointer;
+   border-radius: 4px;
+ }
+ .sidebar_container .content_sec table {
+   width: 80%;
+   margin: 20px auto;
+   border-collapse: collapse;
+   text-align: center;
+   direction: rtl; /* Ensures text aligns properly for RTL languages */
+}
+
+.sidebar_container .content_sec  th, td {
+   border: 1px solid #ddd;
+   padding: 10px;
+}
+
+.sidebar_container .content_sec  th {
+   background-color: #f4f4f4;
+   font-weight: bold;
+}
+
+.sidebar_container .content_sec  tr:nth-child(even) {
+   background-color: #f9f9f9;
+}
+
+.sidebar_container .content_sec  tr:hover {
+   background-color: #f1f1f1;
+}
+
+.sidebar_container .content_sec  button.delet {
+   background-color: #ff4d4d;
+   color: white;
+   border: none;
+   padding: 8px 12px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 14px;
+}
+
+.sidebar_container .content_sec  button.delet:hover {
+   background-color: #e60000;
+}
+.delet{
+   color: white;
+   font-size: 18px;
+   background-color: rgb(231, 64, 12);
+   padding: 8px 18px;
+   border-radius: 2px;
+   border: 1px solid rgb(154, 240, 182);
+   margin-right: 5px;
+   cursor: pointer;
+}
+
+.delet:hover{
+   background-color: rgb(126, 31, 2);
+   color: white;
+}
+
+.UPDATE{
+   color: white;
+   font-size: 18px;
+   background-color: rgb(3, 228, 100);
+   padding: 8px 18px;
+   border-radius: 2px;
+   border: 1px solid rgb(154, 240, 182);
+   margin-right: 5px;
+   cursor: pointer;
+}
+
+.UPDATE:hover{
+   background-color: rgb(8, 94 , 23);
+   color: white;}
+
+.sidebar_container table img{
+   width: 50px;
+   height: 50px;
+}
+/*start product css*/
+
+.form_product{
+   width: 70%;
+   margin: 5px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+}
+
+h1{
+   padding: 10px;
+}
+
+label{
+   display: block;
+   margin-bottom: 5px;
+   font-size: 25px;
+}
+
+input{
+   width: 80%;
+   padding: 12px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.button{
+   width: 90%;
+   padding: 10px;
+   margin-bottom: 15px;
+   background-color: #007bff;
+   border: none;
+   cursor: pointer;
+   font-size: 28px;
+}
+
+button:hover{
+   background-color: #011c38;
+   color: white;
+}
+
+#form_control{
+   width: 80%;
+   padding: 12px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 1px;
+}
+
+/*start product css*/
+
+
